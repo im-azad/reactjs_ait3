@@ -1,0 +1,112 @@
+.ait3__header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.ait3__header-content {
+	margin-top: 5rem;
+}
+
+.ait3__header h1 {
+	font-family: var(--font-family);
+	font-size: 68px;
+	line-height: 75px;
+	font-weight: 800;
+}
+
+.ait3__header-content > p {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 27px;
+	color: var(--color-text);
+	margin-top: 1.5rem;
+}
+.ait3__header-content__input {
+	display: flex;
+	width: 100%;
+	margin: 2rem 0 1rem;
+}
+.ait3__header-content__input input {
+	flex: 2;
+	width: 100%;
+	min-height: 50px;
+	font-family: var(--font-family);
+	font-size: 20px;
+	background: var(--color-footer);
+	border: 2px solid var(--color-footer);
+	padding: 0 1rem;
+	outline: none;
+	color: #fff;
+	border-radius: 5px 0 0 5px;
+}
+.ait3__header-content__input button {
+	flex: 0.6;
+	width: 100%;
+	min-height: 50px;
+	font-family: var(--font-family);
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 27px;
+	background: #ff4820;
+	color: #fff;
+	cursor: pointer;
+	padding: 0 1rem;
+	border-radius: 0 5px 5px 0;
+	border: none;
+}
+
+.ait3__header-content__people {
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.ait3__header-content__people img {
+	width: 182px;
+	height: 38px;
+}
+
+.ait3__header-content__people > p {
+	margin-left: 1rem;
+	font-family: var(--font-family);
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 38px;
+	color: #fff;
+	text-align: center;
+}
+
+.ait3__header-image img {
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+	.ait3__header h1 {
+		font-size: 44px;
+		line-height: 50px;
+	}
+	.ait3__header-content p {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.ait3__header-content__people p {
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 1050px) {
+	.ait3__header {
+		grid-template-columns: 1fr;
+	}
+	.ait3__header-content__people p {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 550px) {
+	.ait3__header-content {
+		margin-top: 0;
+	}
+}

@@ -1,0 +1,12 @@
+.ait3__whatait3 {
+	display: flex;
+	background: radial-gradient(
+		circle at 3% 25%,
+		rgba(0, 40, 83, 1) 0%,
+		rgba(4, 12, 24, 1) 100%
+	);
+	padding: 52px;
+}
+
+.ait3__whatait3-heading {
+}
