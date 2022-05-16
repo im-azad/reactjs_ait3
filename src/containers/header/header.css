@@ -96,6 +96,10 @@
 	.ait3__header-content__people p {
 		font-size: 10px;
 	}
+	.ait3__header-content__input input,
+	.ait3__header-content__input button {
+		font-size: 14px;
+	}
 }
 @media screen and (max-width: 1050px) {
 	.ait3__header {
