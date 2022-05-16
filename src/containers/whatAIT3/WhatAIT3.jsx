@@ -4,7 +4,7 @@ import './whatAIT3.css';
 
 const WhatAIT3 = () => {
 	return (
-		<div className='ait3__whatait3 section__margin'>
+		<div className='ait3__whatait3 section__margin' id='ait3'>
 			<div className='ait3__whitait3-feature'>
 				<Feature
 					title='What is AIT-3'
