@@ -36,15 +36,14 @@
 	min-width: 30;
 }
 .ait3__whitait3-feature .ait3__features-container__single-feature {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
 }
 .ait3__whitait3-feature .ait3__features-container__feature-title {
 	flex: 30%;
 }
 .ait3__whitait3-feature .ait3__features-container__feature-text {
-	max-width: 700px;
+	padding-right: 80px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -68,10 +67,22 @@
 	.ait3__whatait3__feature-container {
 		grid-template-columns: 1fr 1fr;
 	}
+	.ait3__whitait3-feature .ait3__features-container__single-feature {
+		grid-template-columns: 1fr;
+	}
 }
 @media screen and (max-width: 768px) {
 	.ait3__whatait3__feature-container {
 		grid-template-columns: auto;
 		grid-gap: 60px;
+	}
+	.ait3__whitait3-feature .ait3__features-container__feature-text {
+		padding-right: 0px;
+	}
+	.ait3__whatait3-heading p {
+		display: none;
+	}
+	.ait3__whatait3-heading {
+		padding: 50px 0;
 	}
 }
