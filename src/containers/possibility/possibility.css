@@ -38,6 +38,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+	.ait__possibility-image img {
+		width: 100%;
+	}
 	.ait__possibility {
 		grid-template-columns: 1fr;
 	}
@@ -46,5 +49,13 @@
 @media screen and (max-width: 768px) {
 	.ait__possibility-image img {
 		width: 100%;
+	}
+	.a .ait__possibility-content h1 {
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.ait__possibility-content p {
+		font-size: 14px;
+		line-height: 28px;
 	}
 }
