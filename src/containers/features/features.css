@@ -16,7 +16,7 @@
 	padding-right: 100px;
 	margin-bottom: 35px;
 }
-.ait3__features-heading p {
+.ait3__features-heading a {
 	font-family: var(--font-family);
 	font-weight: 500;
 	font-size: 16px;
@@ -47,5 +47,9 @@
 @media screen and (max-width: 768px) {
 	.ait3__features {
 		grid-template-columns: 1fr;
+	}
+	.ait3__features-heading h1 {
+		font-size: 28px;
+		line-height: 40px;
 	}
 }

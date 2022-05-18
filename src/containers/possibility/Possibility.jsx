@@ -19,7 +19,7 @@ const Possibility = () => {
 					everything joy alteration boisterous the attachment. Party
 					we years to order allow asked of.
 				</p>
-				<h4>Request Early Access to Get Started</h4>
+				<a href='index.html'>Request Early Access to Get Started</a>
 			</div>
 		</div>
 	);

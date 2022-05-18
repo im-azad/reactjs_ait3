@@ -11,11 +11,12 @@ const Menu = () => (
 		<p>
 			<a href='#ait3'>What is AIT?</a>
 		</p>
-		<p>
-			<a href='#possibility'>Open AI</a>
-		</p>
+
 		<p>
 			<a href='#features'>Case Studies</a>
+		</p>
+		<p>
+			<a href='#possibility'>Open AI</a>
 		</p>
 		<p>
 			<a href='#blog'>LIbrary</a>

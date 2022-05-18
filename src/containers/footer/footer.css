@@ -1,0 +1,126 @@
+.ait3__footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: var(--color-footer);
+}
+.ait3__footer-heading {
+	max-width: 900px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.ait3__footer-heading h2 {
+	font-family: var(--font-family);
+	font-weight: 800;
+	font-size: 62px;
+	line-height: 75px;
+	letter-spacing: -0.04em;
+}
+.ait3__footer-btn {
+	text-align: center;
+	margin-bottom: 80px;
+	padding: 20px 25px;
+}
+.ait3__footer-btn a {
+	color: #fff;
+	border: 1px solid #fff;
+	font-family: var(--font-family);
+	font-size: 16px;
+	padding: 20px 25px;
+	cursor: pointer;
+	background-color: transparent;
+}
+.ait3__footer-links {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr;
+	grid-gap: 30px;
+	padding: 80px 0;
+}
+.ait3__footer-links {
+	width: 90%;
+}
+.ait3__footer-links_logo p {
+	width: 50%;
+}
+.ait3__footer-links h4 {
+	font-family: var(--font-family);
+	color: #fff;
+	margin-bottom: 30px;
+}
+.ait3__footer-links p,
+.ait3__footer-links a {
+	font-family: var(--font-family);
+	font-size: 12px;
+	line-height: 18px;
+	color: #fff;
+	margin-bottom: 25px;
+	display: block;
+}
+.ait3__footer-copyright {
+	text-align: right;
+}
+
+.ait3__footer-copyright p {
+	font-family: var(--font-family);
+	font-size: 12px;
+	line-height: 14px;
+	color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+	.ait3__footer-heading h2 {
+		font-size: 48px;
+	}
+	.ait3__footer-links_logo p {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.ait3__footer-links_logo p {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.ait3__footer-links {
+		grid-template-columns: 1fr 1fr;
+		align-items: flex-start;
+	}
+	.ait3__footer-heading h2 {
+		font-size: 30px;
+		line-height: 50px;
+	}
+	.ait3__footer-heading {
+		margin-bottom: 45px;
+	}
+	.ait3__footer-btn {
+		margin-bottom: 50px;
+	}
+	.ait3__footer-btn a {
+		font-size: 14px;
+	}
+	.ait3__footer-links p,
+	.ait3__footer-links a {
+		margin-bottom: 14px;
+	}
+}
+@media screen and (max-width: 576px) {
+	.ait3__footer-heading h2 {
+		font-size: 28px;
+		line-height: 35px;
+	}
+	.ait3__footer-btn {
+		margin-bottom: 20px;
+	}
+	.ait3__footer-btn a {
+		font-size: 12px;
+		padding: 16px 24px;
+	}
+	.ait3__footer-links {
+		grid-template-columns: 1fr;
+		padding: 60px 0;
+	}
+	.ait3__footer-links h4 {
+		margin-bottom: 20px;
+	}
+}

@@ -57,6 +57,7 @@
 
 .ait3__header-content__people {
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	justify-content: flex-start;
 	align-items: center;
@@ -67,16 +68,17 @@
 .ait3__header-content__people img {
 	width: 182px;
 	height: 38px;
+	margin-right: 1rem;
 }
 
 .ait3__header-content__people > p {
-	margin-left: 1rem;
 	font-family: var(--font-family);
 	font-size: 12px;
 	font-weight: 500;
 	line-height: 38px;
 	color: #fff;
 	text-align: center;
+	margin: 10px 0;
 }
 
 .ait3__header-image img {
@@ -110,6 +112,10 @@
 	}
 }
 @media screen and (max-width: 550px) {
+	.ait3__header h1 {
+		font-size: 34px;
+		line-height: 42px;
+	}
 	.ait3__header-content {
 		margin-top: 0;
 	}

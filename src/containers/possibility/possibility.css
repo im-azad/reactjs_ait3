@@ -16,7 +16,8 @@
 	line-height: 45px;
 	margin-bottom: 20px;
 }
-.ait__possibility-content h4 {
+.ait__possibility-content h4,
+.ait__possibility-content a {
 	font-family: var(--font-family);
 	font-weight: 500;
 	font-size: 16px;
@@ -24,7 +25,7 @@
 	color: #71e5ff;
 	margin-bottom: 10px;
 }
-.ait__possibility-content h4:last-child {
+.ait__possibility-content a {
 	color: var(--color-subtext);
 	margin-bottom: 0;
 }
@@ -50,7 +51,7 @@
 	.ait__possibility-image img {
 		width: 100%;
 	}
-	.a .ait__possibility-content h1 {
+	.ait__possibility-content h1 {
 		font-size: 28px;
 		line-height: 38px;
 	}
